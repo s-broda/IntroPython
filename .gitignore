@@ -129,4 +129,5 @@ dmypy.json
 .pyre/
 
 # mine:
-notebooks/pds
+slides/pds
+.idea/
