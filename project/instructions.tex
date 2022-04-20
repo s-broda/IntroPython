@@ -1,0 +1,39 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{amsthm, amsmath, amsfonts, exscale, latexsym, graphicx, setspace, tabularx, booktabs, microtype}
+\usepackage{times, pdfpages, wasysym}
+\usepackage{enumitem}
+%\usepackage[mtpcal,mtphrb,subscriptcorrection]{mtpro2}
+\usepackage{hyperref}
+\usepackage[ngerman]{babel}
+\def\tomonth{\ifcase\month\or January\or February\or March\or April\or May\or June\or July\or August\or September\or October\or November\or December\fi\space\number\year}
+\textwidth162mm
+\textheight23.5cm
+\topmargin-0.75cm
+\headheight0cm
+\oddsidemargin-1.4mm \evensidemargin-1.4mm \unitlength1cm
+
+\onehalfspacing
+\begin{document}
+
+
+\begin{center}
+\bfseries\huge Instructions for the Programming Project
+\end{center}
+The aim of the project is to download and visualize/summarize some data using Python, Pandas, and Matplotlib, in teams of two. You are free to choose the data that you want to work with; some ideas are CoViD as used in class, financial data from Yahoo Finance (there are packages for interfacing Python with it), CO2 and climate change, macroeconomics, etc.
+
+The end result should be a nice report containing some plots, maybe some other analysis, and a verbal description of the results. The report can be written using Word or \LaTeX\ (this file uses the latter), or as a Jupyter notebook. There is no explicit page or word limit, just be reasonable. The deadline for handing in the report is May 31st, 11:59pm.
+
+As for grading, here are some of the things that I will reward:
+\begin{itemize}
+\item If you choose to use a Jupyter notebook: using MarkDown to format text.
+\item If you choose to use a Jupyter notebook: having some of the code in functions inside a module (.py file) and importing them into the notebook.
+\item Collaborating using git and hosting the analysis on Github.
+\item Combining data from different sources.
+\item Transforming the data in some way (e.g., moving averages).
+\item Pretty graphs (labels, titles, line styles, colors etc.) Don't forget to mention the data sources if not obvious from the code.
+\item In general, a well-written report with an interesting analysis.
+\end{itemize}
+This does \emph{not} mean that you have to do all of the above. The last section of the report should be a reflection on your work. Which problems did you encounter and how did you solve them? What was easy, what was hard? How would you rate the end result?\\
+\noindent
+Best of luck!
+\end{document} 

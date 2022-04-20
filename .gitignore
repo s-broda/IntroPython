@@ -132,3 +132,9 @@ dmypy.json
 slides/pds
 .idea/
 slides/coviddata.csv
+*.aux
+*.bbl
+*.blg
+*.out
+*.synctex
+*.bak
