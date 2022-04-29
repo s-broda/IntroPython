@@ -133,3 +133,10 @@ slides/pds
 .idea/
 *.docx
 exam_information.pdf
+slides/coviddata.csv
+*.aux
+*.bbl
+*.blg
+*.out
+*.synctex
+*.bak
